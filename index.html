@@ -4,20 +4,46 @@
   <head>
     <!-- this will show in the title tab -->
     <title>My Favorites</title>
+    <style>
+      ul {
+        list-style-type: square;
+        color: navy;
+        color: orange;
+      }
+
+      h1 {
+        color: purple;
+      }
+
+      h2 {
+        color: black;
+      }
+    </style>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My Favorite Things</h1>
-    <hr>
+    <header style="background-color: red;">
+      <h1 style="color: white;">My Favorite Things</h1>
+      <hr>
+    </header>
     <br>
-    <h2>My Favorite Sport</h2>
-    <p>My favorite sport is <em>hockey</em> even though I am not good at it</p>
-    <h2>My Favorite Foods</h2>
-    <ol start="10">
-      <li><strong>Enchiladas</strong></li>
-      <li>Pad Thai</li>
-      <li>Seafood</li>
-    </ol>
-    <img src="https://www.lecremedelacrumb.com/wp-content/uploads/2020/09/chicken-pad-thai-16sm-12.jpg" height="100">
-    <a href="https://www.bettycrocker.com/recipes/easy-beef-enchiladas/c43a8fe7-628d-4f29-8492-1c7f87b05bc9" target="_blank">How to make enchiladas</a>
+    <section>
+      <h2>My Favorite Sport</h2>
+      <p>My favorite sport is <em>hockey</em> even though I am <span>not</span> good at it</p>
+    </section>
+    <section>
+      <h2>My Favorite Foods</h2>
+      <h2>Are Very Good</h2>
+      <ul>
+        <li style="color: rgb(89, 42, 55);"><strong>Enchiladas</strong> are my favorite food.</li>
+        <li>Pad Thai</li>
+        <li>Seafood</li>
+      </ul>
+      <img src="https://www.lecremedelacrumb.com/wp-content/uploads/2020/09/chicken-pad-thai-16sm-12.jpg" height="100">
+      <a href="https://www.bettycrocker.com/recipes/easy-beef-enchiladas/c43a8fe7-628d-4f29-8492-1c7f87b05bc9" target="_blank">How to make enchiladas</a>
+    </section>
+    <footer>
+      <p>Created by Karl Hohn</p>
+    </footer>
   </body>
 </html>

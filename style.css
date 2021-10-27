@@ -1,0 +1,14 @@
+p {
+  font-size: 12px;
+  color: #963952;
+}
+
+body {
+  background-color: rgb(188, 230, 200);
+  font-family: "Courier New", monospace;
+}
+
+h2 {
+  color: sienna;
+  display: inline;
+}
